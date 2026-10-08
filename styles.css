@@ -1320,16 +1320,3 @@ blockquote {
   }
   .reveal { opacity: 1; transform: none; }
 }
-
-/* Correção de visibilidade das fotos em celulares e tablets.
-   Mantém o layout e evita que animações deixem fotos ocultas. */
-@media (max-width: 860px) {
-  .hero-visual.reveal,
-  .about-visual.reveal,
-  .quote-image.reveal,
-  .cta-card.reveal {
-    opacity: 1 !important;
-    transform: none !important;
-    visibility: visible !important;
-  }
-}
